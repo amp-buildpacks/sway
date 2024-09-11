@@ -1,0 +1,3 @@
+[[dependencies]]
+repo = "amp-buildpacks/sway"
+version = "0.1.0"
