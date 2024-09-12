@@ -15,23 +15,23 @@
 api = "0.8"
 
 [buildpack]
-  description = "A Cloud Native Buildpack with an order definition suitable for Fuel applications"
-  homepage = "https://github.com/amp-buildpacks/fuel"
-  id = "amp-buildpacks/fuel"
-  keywords = ["Fuel"]
-  name = "AMP Buildpack for Fuel"
+  description = "A Cloud Native Buildpack with an order definition suitable for Sway applications"
+  homepage = "https://github.com/amp-buildpacks/sway"
+  id = "amp-buildpacks/sway"
+  keywords = ["Sway"]
+  name = "AMP Buildpack for Sway"
   version = "{{ .version }}"
 
   [[buildpack.licenses]]
     type = "Apache-2.0"
-    uri = "https://github.com/amp-buildpacks/fuel/blob/main/LICENSE"
+    uri = "https://github.com/amp-buildpacks/sway/blob/main/LICENSE"
 
 [metadata]
   include-files = ["LICENSE", "README.md", "buildpack.toml"]
 
 [[order]]
   [[order.group]]
-    id = "amp-buildpacks/sway"
+    id = "amp-buildpacks/forc"
     version = "0.1.0"
 
   [[order.group]]
