@@ -3,7 +3,7 @@ github:
   token:    ${{ secrets.AMP_BUILDPACKS_BOT_GITHUB_TOKEN }}
 
 package:
-  repositories:   ["ghcr.io/amp-buildpacks/fuel"]
+  repositories:   ["ghcr.io/amp-buildpacks/sway"]
   register:       false
   registry_token: ${{ secrets.AMP_BUILDPACKS_BOT_GITHUB_TOKEN }}
 

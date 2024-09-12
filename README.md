@@ -1,12 +1,12 @@
-# `ghcr.io/amp-buildpacks/fuel`
+# `ghcr.io/amp-buildpacks/sway`
 
-The Fuel Cloud Native Buildpack provides a set of collaborating buildpacks that
-enable the building of a Fuel-based application.
+The Cloud Native Buildpack provides a set of collaborating buildpacks that
+enable the building of a Sway-based application.
 
 ## Included Buildpacks
 
 
-- [`amp-buildpacks/sway`](https://github.com/amp-buildpacks/sway)
+- [`amp-buildpacks/forc`](https://github.com/amp-buildpacks/forc)
 
 - [`paketo-buildpacks/procfile`](https://github.com/paketo-buildpacks/procfile)
 
@@ -14,11 +14,11 @@ enable the building of a Fuel-based application.
 
 You can build your app with two steps:
 
-1. Run `pack build <image-name> -b ghcr.io/amp-buildpacks/fuel`. An image will
+1. Run `pack build <image-name> -b ghcr.io/amp-buildpacks/sway`. An image will
    be generated that you can run.
 2. Run the image with `docker run -it <image-name>`.
 
-By default, the Fuel buildpack will add process types for all of the binary
+By default, the Sway buildpack will add process types for all of the binary
 projects in your workspace. You may optionally add a
 [`Procfile`](https://paketo.io/docs/howto/configuration/#procfiles) though if
 you need to customize the start command for your container.
@@ -27,14 +27,14 @@ you need to customize the start command for your container.
 
 ### A Meta Buildpack
 
-Included in this repo is a `buildpack.toml` that defines the Fuel meta
-buildpack. It allows you to reference all of the Fuel related CNBs in one
+Included in this repo is a `buildpack.toml` that defines the Sway meta
+buildpack. It allows you to reference all of the Sway related CNBs in one
 convenient way & know that the order is set correctly.
 
 This is available through a pre-built docker image on [Amphitheatre Buildpacks
 Packages](https://github.com/orgs/amp-buildpacks/packages).
 
-To use: `pack build <image-name> -b ghcr.io/amp-buildpacks/fuel`
+To use: `pack build <image-name> -b ghcr.io/amp-buildpacks/sway`
 
 ## Contributing
 
