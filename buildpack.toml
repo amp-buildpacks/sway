@@ -30,6 +30,7 @@ api = "0.8"
   include-files = ["LICENSE", "README.md", "buildpack.toml"]
 
 [[order]]
+
   [[order.group]]
     id = "amp-buildpacks/sway"
     version = "0.1.0"
@@ -37,4 +38,4 @@ api = "0.8"
   [[order.group]]
     id = "paketo-buildpacks/procfile"
     optional = true
-    version = "5.9.0"
+    version = "5.9.2"
