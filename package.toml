@@ -1,5 +1,5 @@
 [[dependencies]]
-  uri = "docker://ghcr.io/amp-buildpacks/forc:0.4.3"
+  uri = "docker://ghcr.io/amp-buildpacks/forc:0.5.0"
 
 [[dependencies]]
   uri = "docker://docker.io/paketobuildpacks/procfile:5.13.0"
